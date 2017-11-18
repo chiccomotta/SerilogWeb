@@ -17,7 +17,7 @@ namespace SerilogWeb.Controllers
         public HomeController(SimpleLogger simpleLogger)
         {
             this.logger = simpleLogger;
-            logger.SimpleLog("test form simple logger");
+            logger.SimpleLog("test from simple logger");
         }
 
         public IActionResult Index()
