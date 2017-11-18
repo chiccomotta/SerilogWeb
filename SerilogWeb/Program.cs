@@ -14,6 +14,11 @@ namespace SerilogWeb
 {
     public class Program
     {
+        /***
+         * 
+         * HOW TO USE SERILOG LOGGER
+         * 
+         */
         public static void Main(string[] args)
         {
             var configuration = new ConfigurationBuilder()
