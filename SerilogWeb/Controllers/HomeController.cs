@@ -6,13 +6,18 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Serilog;
 using SerilogWeb.Models;
+using SerilogWeb.Services;
 
 namespace SerilogWeb.Controllers
 {
     public class HomeController : Controller
     {
-        public HomeController()
+        private readonly SimpleLogger logger;
+
+        public HomeController(SimpleLogger simpleLogger)
         {
+            this.logger = simpleLogger;
+            logger.SimpleLog("test form simple logger");
         }
 
         public IActionResult Index()

@@ -1,0 +1,6 @@
+2017-11-18 16:35:40.140 +01:00  Hello, world!
+2017-11-18 16:35:41.682 +01:00  Configure pipeline
+2017-11-18 16:35:43.110 +01:00  test form simple logger
+2017-11-18 16:35:43.115 +01:00  INTO THE CONTROLLER
+2017-11-18 16:36:05.087 +01:00  test form simple logger
+2017-11-18 16:36:07.164 +01:00  INTO THE CONTROLLER
